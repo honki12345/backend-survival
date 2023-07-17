@@ -2,11 +2,13 @@
 
 ## Backend-survival
 
-* [backend-survival](README.md)
+* [megaptera/dev-road/backend-survival](README.md)
 
-* [GitHub과 연동하기](/integration/integration-with-github.md)
-  * [PR 날리기](/integration/pull-request.md)
+* [1주차](/week1/README.md)
 
-## 효과적인 학습법
+  * [1. h](/week1/h.md)
+  * [2. h](/week1/i.md)
 
-* [어떻게 공부할 것인가](how-to-study.md)
+## 독서노트
+
+* [어떻게 공부할 것인가](/readingnote/how-to-study.md)
