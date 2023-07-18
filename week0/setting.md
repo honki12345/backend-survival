@@ -1,26 +1,22 @@
 # 환경세팅
 
-## brew의 필요성
+## note
 
-의존성 설치는 brew만 사용하여 의존성을 한 곳에서 관리하는 습관이 필요  
+brew의 필요성
 
----
+- 의존성 설치는 brew만 사용하여 의존성을 한 곳에서 관리하는 습관이 필요  
 
-### Github 연결
+Github 연결
 
-SSH를 통한 Github 연결  
+- SSH를 통한 Github 연결  
 https 연결 지양  
 
----
+CLI
 
-### CLI
-
-명령어 수행은 반드시 CLI 환경에서 진행  
+- 명령어 수행은 반드시 CLI 환경에서 진행  
 GUI도구로 의도한 결과가 일어났는지 지속적인 확인  
 
----
-
-### gradle
+gradle
 
 - `gradle` 폴더는 Gradle wrapper를 위한 파일들이 모여있다.
 - `gradlew` 파일은 Gradle wrapper 스크립트를 실행할 수 있는 파일이다.
