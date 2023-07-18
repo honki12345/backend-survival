@@ -4,6 +4,8 @@
 
 * [megaptera/dev-road/backend-survival](README.md)
 
+* [0주차](/week0/README.md)
+
 * [1주차](/week1/README.md)
 
   * [1. h](/week1/h.md)
