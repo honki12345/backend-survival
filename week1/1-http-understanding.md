@@ -25,7 +25,8 @@
 - http를 이용하여 서로 하이퍼미디어 문서를 주고 받을 수 있다
   하이퍼미디어문서
 
-**World Wide Web**  
+### World Wide Web  
+
 정의
 
 - Internet을 통해 접근 가능한 (공용) 웹페이지의 상호연결 시스템
@@ -36,7 +37,8 @@
 - URL/URI: 웹 요소에 접근하기 위한 식별자
 - HTML: 웹 문서(요소)
 
-**Internet**  
+### Internet  
+
 정의
 
 - TCP/IP(프로토콜 세트)을 사용하는 네트워크
