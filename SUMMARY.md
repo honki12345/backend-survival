@@ -11,8 +11,11 @@
 
 * [1주차 - http](/week1/README.md)
 
-  * [1. h](/week1/h.md)
-  * [2. h](/week1/i.md)
+  * [1. HTTP의 이해](/week1/http-understanding.md)
+  * [2. HTTP Client](/week1/http-client.md)
+  * [3. HTTP Server](/week1/http-server.md)
+  * [4. Java HTTP Server](/week1/java-http-server.md)
+  * [5. Spring Web MVC](/week1/spring-web-mvc.md)
 
 ## 독서노트
 
