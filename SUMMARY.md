@@ -9,7 +9,7 @@
   * [1. 환경세팅](/week0/setting.md)
   * [2. 규칙](/week0/rule.md)
 
-* [1주차 - http](/week1/README.md)
+* [1주차 - HTTP](/week1/README.md)
 
   * [1. HTTP의 이해](/week1/http-understanding.md)
   * [2. HTTP Client](/week1/http-client.md)
