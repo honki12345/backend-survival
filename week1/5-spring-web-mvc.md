@@ -47,7 +47,7 @@
 
 - Apache tomcat은 Jakarta EE platform 명세 중 일부를 구현한 오픈소스 프로그램이다
 
-웹 애플리케이션의 레이아웃
+#### 웹 애플리케이션의 레이아웃
 
 - ***.html, *.jsp, etc.**: 최상위 디렉터리는 문서루트(document root)에 위치
   만약 /index.html를 참조하면 문서루트에서 index.html파일을 찾는다
@@ -57,7 +57,7 @@
 - **/WEB-INF/lib/**: 라이브러리 JAR파일
 - **/META-INF/context.xml**: 로그 액세스, 데이터소스, 세션매니저 등을 설정
 
-소스코드 레이아웃
+#### 소스코드 레이아웃
 
 - **src/**: 자바 소스파일
 - **web/**: 정적컨텐츠(HTML, JSP, JS, CSS, images ...)  
@@ -66,7 +66,7 @@
 - **web/WEB-INF/**: web.xml, tag library discriptor, 리소스파일 등 위치한다  
   서블릿 명세 상 클라이언트 요청에 이 디렉터리의 콘텐츠 제공을 금지한다
 
-배포
+#### 배포
 
 1. 디렉터리을 $CATALINA_BASE/webapps/에 위치  
   디렉터리 이름을 기반으로 컨텍스트 경로 할당
@@ -81,21 +81,21 @@
 
 ### Model-View-Controller(MVC) 아키텍처 패턴
 
-모델(mode)
+#### 모델(mode)
 
 - 도메인에 대한 정보  
   UI에 직접 사용되지 않는 모든 데이터와 동작을 포함하는 비시각적인 객체
 
-뷰(view)
+#### 뷰(view)
 
 - UI에서 모델을 표시하는 역할  
   정보를 표시하는 역할만 한다
 
-컨트롤러(Controller)
+#### 컨트롤러(Controller)
 
 - 사용자로부터 입력을 받고, 모델을 조작하며, 뷰를 적절하게 업데이트한다
 
-프레젠테이션과 모델의 분리
+#### 프레젠테이션과 모델의 분리
 
 - 뷰와 모델은 서로 다른 관심사다  
   뷰를 개발할 때는 UI의 메커니즘, 사용자 인터페이스에 집중하는 반면, 모델을 개발할 때는 비즈니스 정책이나 데이터베이스 상호작용을 고려한다  
@@ -110,11 +110,11 @@
 
 ### Spring MVC
 
-정의
+#### 정의
 
 - Spring Web MVC는 서블릿 API를 기반으로 구축된 웹 프레임워크
 
-DispatcherServlet
+#### DispatcherServlet
 
 - 컨트롤러에 요청(request)를 디스패치하고 기타 기능을 제공한다
 - Spring IoC 컨테이너와 통합되어 스프링의 다른 기능도 사용가능
@@ -126,7 +126,7 @@ DispatcherServlet
 
 ### Java Annotation
 
-어노테이션 정의
+#### 어노테이션 정의
 
 ```java
 @interface name {
@@ -135,7 +135,7 @@ DispatcherServlet
 }
 ```
 
-요소(element)
+#### 요소(element)
 
 - 어노테이션 내에 선언된 메서드
 - 반환값이 있고 매개변수는 없는 추상메서드의 형태
@@ -159,12 +159,12 @@ class NewClass {
 
 - 요소의 반환값타입이 배열인 경우 괄호({})를 사용해서 여러 값 지정
 
-메타 어노테이션(meta annotation)
+#### 메타 어노테이션(meta annotation)
 
 - 어노테이션을 정의하는데 사용되는 어노테이션의 어노테이션
 - 어노테이션을 정의할 때 어노테이션의 적용대상(target)이나 유지기간(retention) 등을 지정하는데 사용
 
-마커 애너테이션(marker annotation)
+#### 마커 애너테이션(marker annotation)
 
 - 요소가 하나도 정의되지 않은 애너테이션
 
@@ -172,7 +172,7 @@ class NewClass {
 
 ### Spring annotation
 
-결합 어노테이션(composed annotation)
+#### 결합 어노테이션(composed annotation)
 
 - ex. @TransactionalService는 @Transactional과 @Service 어노테이션의 의미가 결합된 어노테이션
 
