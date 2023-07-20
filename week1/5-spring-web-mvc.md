@@ -40,7 +40,7 @@
 
 ### Web Server vs WAS(Web Application Server)
 
-![WS vs WAS](./webserver.png)
+![WS vs WAS](./webserver.png)  
 (출처: <https://www.educative.io/answers/web-server-vs-application-server>)
 
 ### Tomcat
@@ -119,7 +119,7 @@ DispatcherServlet
 - 컨트롤러에 요청(request)를 디스패치하고 기타 기능을 제공한다
 - Spring IoC 컨테이너와 통합되어 스프링의 다른 기능도 사용가능
 
-![dispatcherServlet](./dispatcherservlet.png)
+![dispatcherServlet](./dispatcherservlet.png)  
 (출처: <https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/mvc.html>)
 
 ---
@@ -146,7 +146,7 @@ Class만 허용된다
 - 적용할 때 이 요소들의 값을 모두 지정해야한다 (순서무관, 기본값 제외)  
 - 애너테이션 요소가 하나이고 이름이 value인 경우 적용시 요소 이름 생략가능
 
-````java
+```java
 @interface TestInfo {
     String value();
 }

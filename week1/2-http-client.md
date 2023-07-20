@@ -339,11 +339,11 @@ InputStream과 OutputStream
 
 java I/O 계층
 
-- 바이트기반 스트림: Input/OutputStream(최상위), ByteArrayInput/OutputStream, FileInput/OutputStream
-  문자기반 스트림: Reader/Writer(최상위), FileReader/Writer, PipedReader/Writer, StringReader/Writer
+- 바이트기반 스트림: Input/OutputStream(최상위), ByteArrayInput/OutputStream, FileInput/OutputStream  
+  문자기반 스트림: Reader/Writer(최상위), FileReader/Writer, PipedReader/Writer, StringReader/Writer  
   바이트기반 보조스트림: FileInput/OutputStream, BufferedInput/OutputStream,
-  DataInput/OutputStream, SequenceInputStream, PrintStream
-  문자기반 보조스트림: BufferedReader/Writer, InputStreamReader/Writer
+  DataInput/OutputStream, SequenceInputStream, PrintStream  
+  문자기반 보조스트림: BufferedReader/Writer, InputStreamReader/Writer  
 
 ---
 
