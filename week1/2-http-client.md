@@ -176,7 +176,7 @@ String name = """
   부수적인 공백 알고리즘은 JEP378에 자세히 설명되어있다  
   가장 적은 공백줄을 기준으로 공백을 제거한다
 
-````java
+```java
 void writeHTML() {
     String html = """
 ········<html>
@@ -243,6 +243,7 @@ style guide
 - 단일 줄이라면 text block보다는 큰따옴표 2개를 활용한 문자열리터열이 낫다
 - 여는 기호, 닫는 기호와 텍스트들이 왼쪽 여백을 맞추지마라.  
   변수 이름이나 지정자가 추가되면 텍스트 블록을 다시 들여써야한다
+
 ```java
 // ORIGINAL
 String string = """
@@ -294,6 +295,7 @@ String name = """
 ```
 
 - String formatted(Object ... args)
+
 ```java
 String output = """
     Name: %s
@@ -346,7 +348,7 @@ java I/O 계층
 
 Suppressed Exceptions
 
-- try-with-resouces 문에서 여러 개의 예외가 발생할 시, 
+- try-with-resouces 문에서 여러 개의 예외가 발생할 시,
 첫번째 예외는 정상적으로 처리되나 후속 예외는 억제된다(suppressed Exceptions)
 - 첫번째 예외의 getSuppresedExceptions() 메서드를 호출하여 억제된 예외를 확인할 수 있다
 
