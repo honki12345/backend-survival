@@ -52,6 +52,14 @@ UDP
 - UDP는 대신 위의 프로세스를 거치지 않으므로 속도가 빠르다
 - UDP 패킷을 데이터그램이다고 한다
 
+TCP와 UDP 비교
+
+|항목|TCP|UDP|
+|---|---|---|
+|연결방식|연결기반(connection-oriented)</br>- 연결 후 통신(전화기)</br>- 1:1 통신방식|비연결기반(connectionless-oriented)</br>- 연결없이 통신(소포)</br>- 1:1, 1:n, n:n 통신방식|
+|특징|데이터의 경계를 구분안함(byte-stream)</br>신뢰성 있는 데이터 전송</br>- 데이터의 전송순서가 보장됨</br>- 데이터의 수신여부를 확인함</br>(데이터가 손실되면 재전송)</br>- 패킷을 관리할 필요가 없음</br>UDP보다 전송속도가 느림|데이터의 경계를 구분함(datagram)</br>신뢰성 없는 데이터 전송</br>- 데이터의 전송순서가 바뀔 수 있음</br>- 데이터의 수신여부를 확인안함</br>(데이터가 손실되어도 알 수 없음)</br>- 패킷을 관리해주어야 함</br>TCP보다 전송속도가 빠름|
+|관련 클래스|Socket</br>ServerSocket|DatagramSocket</br>DatagramPacket</br>MulticastSocket|
+
 ---
 
 ### Socket과 Socket API 구분
@@ -59,6 +67,7 @@ UDP
 Socket
 
 - 네트워크에서 이름 및 주소를 지정할 수 있는 통신연결점(endpoint)이다
+- 소켓은 입력스트림, 출력스트림을 가지고 있다. 연결시 상대편 소켓의 스트림들과 교차연결된다
 
 Socket API의 주요기능
 
@@ -106,9 +115,10 @@ DNS(Domain Name System)
 
 포트(port)
 
-- 네트워크 연결이 시작되고 끝나는 가상 지점(endpoint)
+- 포트는 호스트가 외부와 통신 하기위한 통로
 - (네트워크)포트는 운영체제에서 관리
 - 각 포트는 특정 프로세스 또는 서비스와 연결
+- 0~65535의 범위를 가지며, 1023번 이하는 well-known
 
 경로(path)
 
