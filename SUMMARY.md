@@ -29,10 +29,10 @@
 
 - [REST API 디자인 규칙](/backend-survival/readingnote/restapi/README.md)
 
-  - [1. REST 소개](/backend-survival/readingnote/restapi/rest-introduce.md)
-  - [2. URI 식별자 설계]
-  - [3. HTTP를 이용한 인터랙션 설계]
-  - [4. 메타데이터 디자인]
-  - [5. 표현 디자인]
-  - [6. 클라이언트 영역]
-  - [7. 마지막 생각]
+  - [1. REST 소개](/backend-survival/readingnote/restapi/1-rest-introduce.md)
+  - [2. URI 식별자 설계](/backend-survival/readingnote/restapi/2-uri-design.md)
+  - [3. HTTP를 이용한 인터랙션 설계](/backend-survival/readingnote/restapi/3-http-interaction.md)
+  - [4. 메타데이터 디자인](/backend-survival/readingnote/restapi/4-metadata.md)
+  - [5. 표현 디자인](/backend-survival/readingnote/restapi/5.represential-design.md)
+  - [6. 클라이언트 영역](/backend-survival/readingnote/restapi/6-client.md)
+  - [7. 마지막 생각](/backend-survival/readingnote/restapi/7-last-thought.md)
