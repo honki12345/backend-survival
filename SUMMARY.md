@@ -27,4 +27,12 @@
 
 ## 독서노트
 
-- [어떻게 공부할 것인가](/readingnote/how-to-study.md)
+- [REST API 디자인 규칙](/backend-survival/readingnote/restapi/README.md)
+
+  - [1. REST 소개](/backend-survival/readingnote/restapi/rest-introduce.md)
+  - [2. URI 식별자 설계]
+  - [3. HTTP를 이용한 인터랙션 설계]
+  - [4. 메타데이터 디자인]
+  - [5. 표현 디자인]
+  - [6. 클라이언트 영역]
+  - [7. 마지막 생각]
