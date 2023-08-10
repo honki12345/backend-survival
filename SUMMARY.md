@@ -26,6 +26,10 @@
   * [직렬화](3-dto-and-json-and-cors/undefined.md)
   * [Jackson ObjectMapper](3-dto-and-json-and-cors/jackson-objectmapper.md)
   * [CORS](3-dto-and-json-and-cors/cors.md)
+* [4주차 Layered Architecture](4-layered-architecture/README.md)
+  * [1. Layered Architecture](4-layered-architecture/1.-layered-architecture.md)
+  * [2. Data Access](4-layered-architecture/2.-data-access.md)
+  * [3. Domain Model](4-layered-architecture/3.-domain-model.md)
 
 ## 독서노트
 
